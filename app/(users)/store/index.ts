@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import mobileSidebarReducer from "./mobileSidebarSlice";
+import logisticsReducer from "./logisticSlice";
 
 export const store = configureStore({
   reducer: {
     mobileSidebar: mobileSidebarReducer,
+    logistics: logisticsReducer,
   },
 });
 

@@ -33,7 +33,7 @@ const Hero = () => {
           </div>
           <Link
             href={"/signup"}
-            className="flex w-[17.25rem] md:w-auto py-[0.95rem] lg:py-[1.5rem] px-[1.8rem] lg:px-[3rem] items-center justify-center rounded-[3.9rem] lg:rounded-[3rem] bg-[#FE581C] text-white gap-2"
+            className="flex w-[17.25rem] md:w-auto py-[0.95rem] lg:py-[1.5rem] px-[1.8rem] lg:px-[3rem] items-center justify-center rounded-[3.9rem] lg:rounded-[3rem] bg-[#FE581C] hover:bg-[#f54708] active:bg-[#db450f] text-white gap-2 transition-all duration-500 ease-in-out"
           >
             <p className="unageo font-medium text-[1rem] leading-[1.4rem] lg:leading-[1.4rem] ">
               Register
