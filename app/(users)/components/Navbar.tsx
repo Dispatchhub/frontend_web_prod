@@ -25,10 +25,10 @@ const Navbar = () => {
   }, []);
   return (
     <div
-      className={`flex lg:w-full lg:px-20 px-[1.7rem] py-[0.8rem] lg:py-5 gap-[0.625rem] fixed nav ${
+      className={`flex lg:px-20 px-[1.7rem] py-[0.8rem] lg:py-5 gap-[0.625rem] fixed z-50 transition-all duration-300 ease-in-out nav ${
         isScrolled
-          ? "top-6 left-4 right-4 w-auto bg-[#FDFDFD] rounded-[2rem]"
-          : "top-6 lg:top-0 lg:bg-[#FFF] bg-[#FDFDFD] rounded-[2rem] lg:rounded-[0rem] left-4 right-4 lg:left-0 lg:right-0"
+          ? "top-10 lg:top-6 left-4 right-4 w-auto bg-[#FDFDFD] rounded-[2rem] lg:left-6 lg:right-6 lg:mx-6"
+          : "top-10 lg:top-0 lg:bg-[#FFF] bg-[#FDFDFD] rounded-[2rem] lg:rounded-[0rem] left-4 right-4 lg:left-0 lg:right-0 "
       }`}
     >
       <div className="flex items-center justify-between w-full">

@@ -6,21 +6,48 @@
   backdrop-filter: blur(11.897689819335938px);
 }
 
-@media (width >= 64rem) {
+/* @media (width >= 64rem) {
   .nav {
     box-shadow: none;
     backdrop-filter: none;
   }
-}
+} */
 
+/* font */
 @font-face {
-  font-family: 'Unageo';
-  src: url('/unageo.ttf') format('truetype');
+  font-family: "Unageo";
+  src: url("/unageo.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-.unageo{
-  font-family: 'Unageo', sans-serif;
+@font-face {
+  font-family: "unageo-bold";
+  src: url("/unageo-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-display: swap;
+}
+
+.unageo {
+  font-family: "Unageo", sans-serif;
+}
+
+.unageo-bold {
+  font-family: "unageo-bold", sans-serif;
+}
+
+/* hero */
+.hero {
+  background: radial-gradient(
+    363.57% 195.72% at 59.65% 24.07%, 
+    #ffffff 0%,   /* bright center */
+    #f0f0f0 50%,  /* subtle light gray */
+    #e0e0e0 100%  /* darker edge */
+  );
+}
+
+.hero-box {
+  box-shadow: -5.846px -5.846px 14.614px 0 rgba(174, 174, 174, 0.1),
+    5.846px 5.846px 14.614px 0 rgba(174, 174, 174, 0.1);
 }
