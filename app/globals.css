@@ -29,12 +29,23 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "unageo-regular";
+  src: url("/unageo-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+
 .unageo {
   font-family: "Unageo", sans-serif;
 }
 
 .unageo-bold {
   font-family: "unageo-bold", sans-serif;
+}
+
+.unageo-regular {
+  font-family: "unageo-regular", sans-serif;
 }
 
 /* hero */
