@@ -11,7 +11,7 @@ const Services = () => {
             <h1 className="unageo-bold text-[2rem] md:text-[3rem] lg:text-[3.75rem] leading-[2.5rem] md:leading-[3.5rem] lg:leading-[4.25rem] text-center">
               How Our Services Help
             </h1>
-            <h3 className="unageo-regular text-[1.125rem] md:text-[1.5rem] leading-[1.75rem] md:leading-[2rem] text-center">
+            <h3 className="unageo-regular text-[1.125rem] md:text-[1.5rem] leading-[1.75rem] md:leading-[2rem] md:text-center">
               Our local dispatch services are designed to meet the unique needs
               of businesses and individuals across Nigeria with efficiency and
               professionalism.

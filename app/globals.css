@@ -62,3 +62,8 @@
   box-shadow: -5.846px -5.846px 14.614px 0 rgba(174, 174, 174, 0.1),
     5.846px 5.846px 14.614px 0 rgba(174, 174, 174, 0.1);
 }
+
+/* Our job */
+.job-box {
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.10);
+}
