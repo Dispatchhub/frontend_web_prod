@@ -19,7 +19,7 @@ const Services = () => {
           </div>
           <Link
             href={""}
-            className="py-3 md:py-4 px-6 md:px-8 md:w-[13.5rem] w-full justify-center items-center rounded-[3.125rem] md:rounded-[2rem] bg-[#FE581C] text-white flex unageo-regular text-[1rem] leading-[1.125rem] lg:leading-[1.5rem] font-medium hover:bg-[#f54708] transition-all duration-500 ease-in-out"
+            className="py-3 md:py-4 px-6 md:px-8 md:w-[13.5rem] w-full rounded-[3.125rem] md:rounded-[2rem] unageo-regular text-[1rem] leading-[1.125rem] lg:leading-[1.5rem] font-medium button"
           >
             Get Started
           </Link>

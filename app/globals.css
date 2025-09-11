@@ -48,6 +48,22 @@
   font-family: "unageo-regular", sans-serif;
 }
 
+/* button */
+.button {
+  display: flex;
+  transition: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  background-color: #FE581C;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background-color: #f54708;
+}
+
 /* hero */
 .hero {
   background: radial-gradient(

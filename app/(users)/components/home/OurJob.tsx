@@ -15,16 +15,28 @@ const OurJob = () => {
             professionalism.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row gap-[2rem] items-center justify-between">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-[2rem]">
           {ourJob.map((item) => (
             <div
               key={item.id}
-              className="pb-4 flex flex-col items-start gap-6 rounded-[1rem] bg-[#FDFDFD] job-box"
+              className="pb-4 flex flex-col items-start rounded-[1rem] bg-[#FDFDFD] job-box gap-6"
             >
-              <Image src={item.image} width={384} height={352} alt="job-img" className="w-full"/>
+              <div className="w-full h-[16rem] lg:h-[20rem] overflow-hidden rounded-t-[1rem]">
+                <Image
+                  src={item.image}
+                  width={384}
+                  height={352}
+                  alt="job-img"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div className="flex flex-col gap-2 justify-center items-start px-4">
-                <h2 className="unageo text-[2rem] md:text-[2.5rem] leading-[2.5rem] md:leading-[3rem] whitespace-nowrap font-semibold">{item.title}</h2>
-                <p className="unageo-regular text-[1rem] md:text-[1.25rem] leading-[1rem] md:leading-[2rem]">{item.description}</p>
+                <h2 className="unageo text-[1.75rem] lg:text-[2rem] leading-[2rem] lg:leading-[2.5rem] font-semibold line-clamp-2">
+                  {item.title}
+                </h2>
+                <p className="unageo-regular text-[0.9rem] lg:text-[1rem] leading-[1.4rem] lg:leading-[1.5rem] line-clamp-3 lg:line-clamp-4">
+                  {item.description}
+                </p>
               </div>
             </div>
           ))}
