@@ -9,7 +9,7 @@ import DispatchHubCourier from './faq/DispatchHubCourier';
 const Faq = () => {
   return (
     <div className="py-[3.5rem] lg:py-[6rem] px-8 lg:px-[5rem] ">
-      <div className="flex flex-col md:flex-row items-start md:gap-[3rem] lg:gap-[4.75rem] gap-8">
+      <div className="flex flex-col lg:flex-row items-start md:gap-[3rem] lg:gap-[4.75rem] gap-8">
         <div className="md:max-w-[26rem] md:py-8 md:px-6 flex flex-col items-start gap-8">
           <div className="flex flex-col items-start gap-2">
             <h1 className="unageo-bold text-[2rem] md:text-[2.5rem] leading-[2.5rem] md:leading-[3rem]">
@@ -26,7 +26,7 @@ const Faq = () => {
             Send A Direct Message
           </Link>
         </div>
-        <div className="flex md:w-[48rem] flex-col items-start md:gap-4">
+        <div className="flex w-full lg:w-[48rem] flex-col items-start md:gap-4">
           <DispatchHub />
           <DeliveryOrder />
           <ItemsType />

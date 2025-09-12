@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import { Provider } from "react-redux";
 import { store } from "../store";
 import Sidebar from "./Sidebar";
+import Footer from "./Footer";
 
 export default function ClientProvider({
   children,
@@ -17,6 +18,7 @@ export default function ClientProvider({
         <Navbar />
         <Sidebar />
         {children}
+        <Footer />
       </div>
     </Provider>
   );
